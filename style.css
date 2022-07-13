@@ -1,14 +1,27 @@
+
+/* TYPE SELECTORS */
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-width: 1500px;
 }
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    margin-right: 120px;
+    display: flex;
+}
+
+li {
+    display: inline;
+    margin-right: 25px;
+    border-bottom: 1px solid #fff;
+
 }
 
 a {
@@ -17,22 +30,73 @@ a {
     font-size: 18px;
   }
 
-.header {
+/* HEADER CONTENT */
+
+.header-container {
     background-color: #1f2937;
     color: white;
     display: flex;
-    
+    justify-content: space-between;
+    flex-direction: column;
+    min-width: 200px;
 }
 
-.ul-div {
-    margin-left: auto;
-    padding-right: 10px;
+.header-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header-logo-div {
-    margin-right: auto;
-    padding-left: 40px;
+.header-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+    padding: 80px;
 }
+
+.header-two-child {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.header-ragdoll-img {
+    height: 120px;
+    width: 150px;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+.button {
+    width: 120px;
+    height: 25px;
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 1.1;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #fff;
+  }
+
+  .header-main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 10px;
+  }
+
+  .header-text {
+    font-size: 18px;
+    color: lightgrey;
+  }
+
+
+/* HEADER CONTENT END */
+
+
 
 .body-one {
 
