@@ -7,8 +7,14 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    min-width: 1500px;
+    min-width: 1100px;
 }
+
+.body {
+    display: flex;
+    flex: 1;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -51,7 +57,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 110px;
+    gap: 70px;
     padding: 80px;
 }
 
@@ -59,6 +65,9 @@ a {
     display: flex;
     flex-direction: column;
     gap: 2px;
+    justify-content: flex-start;
+    padding-bottom: 60px;
+    padding-left: 15px;
 }
 
 .header-ragdoll-img {
@@ -97,10 +106,57 @@ a {
 /* HEADER CONTENT END */
 
 
+/*BODY SECTION ONE CONTENT */
 
-.body-one {
-
+.body-one-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    background-color: #fff;
+    padding: 20px;
+    gap: 50px;
+    align-self: center;
+    flex-direction: column;
 }
+
+.cat-images-container {
+    display: flex;
+    gap: 60px;
+    padding: 10px;
+}
+
+.body-one-heading {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.item-one {
+    align-items: center;
+    display:inline-block;
+    width: 190px;
+}
+.img-one {
+    width: 200px;
+    height: 180px;
+    background-color: grey;
+    align-items: center;
+    outline: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+.caption-one {
+    
+}
+
+
+
+
+
+
+/*BODY SECTION ONE CONTENT END*/
 
 .body-two {
 
