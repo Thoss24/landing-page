@@ -58,7 +58,7 @@ a {
     align-items: center;
     justify-content: center;
     gap: 70px;
-    padding: 80px;
+    padding: 40px;
 }
 
 .header-two-child {
@@ -162,9 +162,9 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #e5e7eb;
     padding: 20px;
     gap: 50px;
+    background-color: #e5e7eb;
 }
 
 .blockquote {
@@ -183,7 +183,7 @@ a {
 }
 
 .blockquote-author {
-    font-size: 28px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 900;
     text-align: right;
@@ -201,20 +201,68 @@ a {
     margin-bottom: -40px;
 }
 
-
-
-
-
-
-
-
-
 /*BODY SECTION TWO CONTENT END*/
 
-.body-three {
 
+/*BODY SECTION THREE CONTENT START*/
+
+.body-three-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
 }
 
-.footer {
+.banner {
+    display: flex;
+    flex-direction:row;
+    width: 50%;
+    height: 10%;
+    padding: 30px;
+    margin: 40px;
+    background-color:#3882f6; 
+    border-radius: 8px;
+    color: #fff;
+    gap: 180px;
+}
 
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.call-to-action-text {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.sign-up-text {
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+.sign-up-button {
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 1.1;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #fff;
+    align-self: center;   
+}
+
+/*BODY SECTION THREE CONTENT END*/
+
+
+
+.footer {
+    background-color:#1f2937 ;
 }
