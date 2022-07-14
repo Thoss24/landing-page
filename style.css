@@ -4,17 +4,13 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    min-width: 1100px;
-    
+    min-height: 100vh;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
-.body {
-    display: flex;
-    flex: 1;
-}
 
 ul {
     list-style: none;
@@ -46,6 +42,9 @@ a {
     justify-content: space-between;
     flex-direction: column;
     min-width: 200px;
+    flex: 1;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .header-one {
@@ -146,6 +145,7 @@ a {
     align-items: center;
     outline: 2px solid #3882f6;
     border-radius: 8px;
+    box-sizing: border-box;
 }
  .caption-one {
     display: flex;
@@ -160,11 +160,56 @@ a {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #e5e7eb;
     padding: 20px;
     gap: 50px;
-    
 }
+
+.blockquote {
+    max-width: 600px;
+    margin: 10px 30px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.blockquote-text {
+    font-size: 36px;
+    font-style:italic;
+    line-height: 1.3;
+    margin: 0;
+    font-weight: 700px;
+}
+
+.blockquote-author {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: right;
+}
+
+.blockquote-author::before {
+    content: "\2014\0020";
+}
+
+.blockquote-quote::before {
+    content: "\201c";
+    font-size: 100px;
+    display: block;
+    margin-top: -20px;
+    margin-bottom: -40px;
+}
+
+
+
+
+
+
+
+
+
+/*BODY SECTION TWO CONTENT END*/
 
 .body-three {
 
