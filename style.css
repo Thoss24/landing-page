@@ -262,7 +262,12 @@ a {
 /*BODY SECTION THREE CONTENT END*/
 
 
+/*FOOTER CONTENT*/
 
 .footer {
-    background-color:#1f2937 ;
+    background-color:#1f2937;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
 }
