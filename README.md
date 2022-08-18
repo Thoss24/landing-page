@@ -14,4 +14,4 @@ Hungry cat. Credit to Kabo, Unsplash. https://unsplash.com/@kabofoods
 
 #### Link to live site
 
-https://thoss24.github.io/landing-page/
+<a href="https://thoss24.github.io/landing-page/" target="blank">Link to live site here</a>
