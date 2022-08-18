@@ -11,3 +11,7 @@ Russian blue cat lying on brown leather textile. Credit to Jelena Senicic, Unspl
 Brown and white cat in shallow focus shot. Credit to @hhh13, Unsplash. https://unsplash.com/@hhh13
 
 Hungry cat. Credit to Kabo, Unsplash. https://unsplash.com/@kabofoods
+
+#### Link to live site
+
+https://thoss24.github.io/landing-page/
